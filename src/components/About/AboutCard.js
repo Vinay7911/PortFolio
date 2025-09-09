@@ -11,30 +11,20 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Vinay Mishra </span>
             from <span className="purple"> Mumbai, India.</span>
             <br />
-            I am currently Pursuing my graduation from Atharva College Of Engineering.
+            Pursuing my B.E in Information Technology at{" "}
+            <span className="purple">
+              Atharva College of Engineering, Mumbai University.
+            </span>
+            <br />I gained internship experience with the{" "}
+            <span className="purple">YBI Foundation</span> as a{" "}
+            <span className="purple"> Data Science & AI/ML Intern</span>,
+            applying Python libraries for predictive modeling, and with the{" "}
+            <span className="purple">EduSkills Foundation</span> as an{" "}
+            <span className="purple">AI: Transformative Learning Intern</span>,
+            focusing on voice assistants and automation.
             <br />
-            {/* I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra. */}
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Cricket
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Playing Kabaddi
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Vinay</footer>
         </blockquote>
       </Card.Body>
     </Card>
