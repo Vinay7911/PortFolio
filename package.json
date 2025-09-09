@@ -45,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "memfs": "^4.38.2",
+    "patch-package": "^8.0.0"
   }
 }
